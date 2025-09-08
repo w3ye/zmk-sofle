@@ -393,3 +393,4 @@ layers:
 combos:
 - p: [14, 15, 21]
   k: CLCK
+  l: [Base]
