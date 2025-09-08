@@ -71,9 +71,9 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
+        caps {
+            bindings = <&kp CLCK>;
+            key-positions = <14 15 21>;
         };
     };
 
@@ -136,6 +136,16 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        Mac_shortcut {
+            bindings = <
+&trans  &trans  &kp LG(LS(N2))  &trans  &mt LG(LS(N4)) LG(LC(LS(N4)))  &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &mt LA(LS(N)) LC(N)  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &kp LG(SPACE)                  &kp LG(LS(LA(SPACE)))    &trans  &trans               &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
