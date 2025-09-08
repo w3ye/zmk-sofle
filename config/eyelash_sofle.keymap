@@ -90,7 +90,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Base";
         };
 
         Home_row {
@@ -104,6 +104,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "HomeRow";
         };
 
         Nav {
@@ -114,6 +115,7 @@
 &trans  &trans      &trans    &trans    &trans     &trans           &kp C_NEXT        &trans      &trans    &trans    &trans   &trans     &trans
 &trans  &kp INSERT  &trans    &trans    &trans     &trans           &kp C_PLAY_PAUSE  &kp C_MUTE  &trans    &trans    &kp F11  &kp F12
             >;
+            display-name = "Nav";
         };
 
         Symbol {
@@ -124,6 +126,7 @@
 &trans     &kp LS(AMPS)   &kp LBKT      &kp RBKT       &trans        &trans           &trans  &kp UNDER  &kp PLUS   &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION   &trans
 &trans     &trans         &trans        &trans         &trans        &trans           &trans  &trans     &trans     &trans         &trans            &trans
             >;
+            display-name = "Symbol";
         };
 
         System {
@@ -136,6 +139,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            display-name = "System";
         };
 
         Mac_shortcut {
@@ -146,6 +150,7 @@
 &trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &mt LA(LS(N)) LC(N)  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &kp LG(SPACE)                  &kp LG(LS(LA(SPACE)))    &trans  &trans               &trans  &trans  &trans  &trans
             >;
+            display-name = "Mac";
         };
     };
 };
