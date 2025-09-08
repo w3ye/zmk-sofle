@@ -140,7 +140,7 @@
 
         Mac_shortcut {
             bindings = <
-&trans  &trans  &kp LG(LS(N2))  &trans  &mt LG(LS(N4)) LG(LC(LS(N4)))  &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(LS(N2))  &trans  &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans               &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &trans               &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans                         &trans                   &trans  &mt LA(LS(N)) LC(N)  &trans  &trans  &trans  &trans  &trans
