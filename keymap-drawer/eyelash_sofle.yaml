@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
-  - System
+  - $$mdi:apple-keyboard-control$$
   - RIGHT GUI
   HomeRow:
   - $$mdi:keyboard-esc$$
@@ -125,7 +125,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: Mac}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
   - $$mdi:apple-keyboard-control$$
@@ -323,7 +323,7 @@ layers:
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: held alternate}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   Mac:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -385,7 +385,7 @@ layers:
   - Gui+$$mdi:keyboard-space$$
   - Gui+Sft+Alt+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
