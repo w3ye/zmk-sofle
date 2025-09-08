@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Base:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -59,13 +59,13 @@ layers:
   - Symbol
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
-  - {t: home row, h: toggle}
+  - {t: HomeRow, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
   - System
   - RIGHT GUI
-  home row:
+  HomeRow:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -124,7 +124,7 @@ layers:
   - Symbol
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
-  - {t: LAYER0, h: toggle}
+  - {t: Base, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
@@ -325,7 +325,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: held alternate}
   - $$mdi:progress-download$$
-  Mac_shortcut:
+  Mac:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Sft+2, s: Gui+Sft+@}
