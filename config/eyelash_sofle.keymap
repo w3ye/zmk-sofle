@@ -84,15 +84,6 @@
         };
     };
 
-    macros {
-        mac_caf_9_hrs: mac_caf_9_hrs {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(SPACE) &kp C &kp A &kp F &kp TAB &kp N9 &kp ENTER>;
-            label = "MAC_CAF_9_HRS";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -162,7 +153,7 @@
 
         Mac_shortcut {
             bindings = <
-&trans  &trans  &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &mac_caf_9_hrs           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans                   &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &mt LS(LG(C)) LG(C)  &kp LG(V)                      &trans                   &trans  &mt LA(LS(N)) LC(LA(N))  &trans  &trans  &trans  &trans  &trans
