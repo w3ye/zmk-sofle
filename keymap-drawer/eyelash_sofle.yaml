@@ -224,10 +224,10 @@ layers:
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+^
-  - Sft+(
-  - Sft+)
-  - Sft+&
-  - Sft+*
+  - '&'
+  - (
+  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -236,10 +236,10 @@ layers:
   - RIGHT GUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+&
+  - Sft+*
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
