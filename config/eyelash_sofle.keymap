@@ -153,11 +153,11 @@
 
         Mac_shortcut {
             bindings = <
-&trans  &trans               &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans                   &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
-&trans  &mt LG(LS(A)) LG(A)  &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans          &mt LS(LG(C)) LG(C)  &kp LG(V)                      &trans                   &trans  &mt LA(LS(N)) LC(LA(N))  &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans          &trans               &kp LG(SPACE)                  &kp LG(LS(LC(SPACE)))    &trans  &trans                   &trans  &trans  &trans  &trans
+&trans       &trans               &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans                   &trans  &trans  &trans  &trans  &trans
+&kp LA(TAB)  &trans               &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
+&trans       &mt LG(LS(A)) LG(A)  &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans  &trans  &trans  &trans  &trans
+&trans       &trans               &trans          &mt LS(LG(C)) LG(C)  &kp LG(V)                      &trans                   &trans  &mt LA(LS(N)) LC(LA(N))  &trans  &trans  &trans  &trans  &trans
+&trans       &trans               &trans          &trans               &kp LG(SPACE)                  &kp LG(LS(LC(SPACE)))    &trans  &trans                   &trans  &trans  &trans  &trans
             >;
 
             display-name = "Mac";
