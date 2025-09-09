@@ -394,3 +394,6 @@ combos:
 - p: [14, 15, 21]
   k: CLCK
   l: [Base]
+- p: [20, 21, 1]
+  k: {t: Symbol, h: toggle}
+  l: [HomeRow, Symbol]
