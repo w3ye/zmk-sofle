@@ -333,7 +333,7 @@ layers:
   - {t: Gui+Ctl+Sft+4, h: Gui+Sft+4, s: Gui+Ctl+Sft+$}
   - {t: Gui+Sft+5, s: Gui+Sft+%}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mac_caf_9_hrs'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
