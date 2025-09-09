@@ -80,7 +80,7 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
-  - Q
+  - {t: Q, h: toggle}
   - W
   - E
   - R
@@ -108,8 +108,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: Nav}
   - X
-  - C
-  - V
+  - {t: C, h: C}
+  - {t: V, h: V}
   - B
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - N
