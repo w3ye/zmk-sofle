@@ -80,7 +80,7 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
-  - {t: Q, h: toggle}
+  - Q
   - W
   - E
   - R
