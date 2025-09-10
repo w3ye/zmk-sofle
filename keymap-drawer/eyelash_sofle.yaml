@@ -385,8 +385,8 @@ layers:
   - Gui+$$mdi:keyboard-space$$
   - Gui+Sft+Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:keyboard-return$$', type: held alternate}
+  - {t: 'Alt+$$mdi:backspace$$', h: 'Gui+$$mdi:backspace$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
