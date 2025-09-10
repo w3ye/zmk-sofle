@@ -108,8 +108,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: Nav}
   - X
-  - {t: C, h: C}
-  - {t: V, h: V}
+  - C
+  - V
   - B
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - N
