@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Mac
+  - {t: '$$mdi:keyboard-esc$$', h: Mac}
   - $$mdi:keyboard-space$$
-  - Symbol
+  - {t: '$$mdi:keyboard-tab$$', h: Symbol}
   - {t: HomeRow, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -121,9 +121,9 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Mac
+  - {t: '$$mdi:keyboard-esc$$', h: Mac}
   - $$mdi:keyboard-space$$
-  - Symbol
+  - {t: '$$mdi:keyboard-tab$$', h: Symbol}
   - {t: Base, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: Mac}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -220,7 +220,7 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
   - '|'
   - $$mdi:apple-keyboard-shift$$
   - Sft+^
@@ -242,12 +242,12 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
+  - {t: ',', s: <}
   - <
   - '>'
   - '?'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
