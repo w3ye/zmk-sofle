@@ -217,30 +217,30 @@ layers:
   - Sft+%
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - _
+  - $$mdi:apple-keyboard-shift$$
   - Sft+^
   - '&'
   - (
   - )
-  - {t: '-', s: _}
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
   - $$mdi:apple-keyboard-option$$
-  - RIGHT GUI
+  - {t: ':', h: RIGHT GUI}
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
-  - Sft+*
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
