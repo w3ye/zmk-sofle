@@ -130,11 +130,11 @@
 
         Symbol {
             bindings = <
-&kp GRAVE  &kp N1         &kp N2      &kp N3         &kp N4        &kp N5           &trans  &kp N6  &kp N7     &kp N8         &kp N9            &kp N0         &trans
-&kp TILDE  &kp LS(EXCL)   &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &trans  &trans     &trans         &trans            &trans         &kp PIPE
-&kp UNDER  &kp LS(CARET)  &kp AMPS    &kp LPAR       &kp RPAR      &kp MINUS        &trans  &trans  &kp LSHFT  &kp LCTRL      &kp LALT          &kp RIGHT_GUI  &trans
-&kp EQUAL  &kp LS(ASTRK)  &trans      &kp LBKT       &kp RBKT      &kp PLUS         &trans  &trans  &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION   &trans
-&trans     &trans         &trans      &trans         &trans        &trans           &trans  &trans  &trans     &trans         &trans            &trans
+&kp GRAVE       &kp N1          &kp N2           &kp N3         &kp N4        &kp N5           &trans  &kp N6  &kp N7            &kp N8            &kp N9            &kp N0                &trans
+&kp TILDE       &kp LS(EXCL)    &kp LS(AT)       &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &trans  &kp MINUS         &kp PLUS          &trans            &trans                &kp PIPE
+&kp LEFT_SHIFT  &kp LS(CARET)   &kp AMPS         &kp LPAR       &kp RPAR      &kp ASTRK        &trans  &trans  &hmr LSHFT UNDER  &hmr LCTRL EQUAL  &kp LALT          &hmr RIGHT_GUI COLON  &kp DOUBLE_QUOTES
+&trans          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT       &kp RBKT      &trans           &trans  &trans  &trans            &kp LESS_THAN     &kp GREATER_THAN  &kp QUESTION          &trans
+&trans          &trans          &trans           &trans         &trans        &trans           &trans  &trans  &trans            &trans            &trans            &trans
             >;
 
             display-name = "Symbol";
