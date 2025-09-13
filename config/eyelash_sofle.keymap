@@ -101,7 +101,7 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R      &kp T        &kp C_VOL_DN     &kp Y      &kp U          &kp I      &kp O             &kp P          &lt 5 BSLH
 &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp F      &kp G        &bt BT_PRV       &kp H      &kp J          &kp K      &kp L             &kp SEMI       &kp APOS
 &kp LSHFT         &lt 3 Z       &kp X         &kp C         &kp V      &kp B        &bt BT_NXT       &kp N      &kp M          &kp COMMA  &kp DOT           &lt 3 FSLH     &kp RIGHT_SHIFT
-&kp C_MUTE        &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 ESCAPE  &kp SPACE  &lt 4 TAB    &kp C_MUTE       &kp ENTER  &kp BACKSPACE  &mo 4      &kp LEFT_CONTROL  &kp RIGHT_GUI
+&kp C_MUTE        &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 ESCAPE  &kp SPACE  &lt 7 TAB    &kp C_MUTE       &kp ENTER  &kp BACKSPACE  &mo 4      &kp LEFT_CONTROL  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -124,11 +124,11 @@
 
         Win_hm {
             bindings = <
-&kp ESC    &kp N1           &kp N2           &kp N3               &kp N4             &kp N5    &kp C_VOLUME_UP  &kp N6     &kp N7              &kp N8                &kp N9            &kp N0               &kp DELETE
-&kp TAB    &kp Q            &kp W            &kp E                &kp R              &kp T     &kp C_VOL_DN     &kp Y      &kp U               &kp I                 &kp O             &kp P                &kp BSLH
-&kp LCTRL  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G     &bt BT_PRV       &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMI  &kp SQT
-&kp LSHFT  &lt 3 Z          &kp X            &kp C                &kp V              &kp B     &bt BT_NXT       &kp N      &kp M               &kp COMMA             &kp DOT           &lt 3 SLASH          &kp RSHFT
-&trans     &kp LGUI         &kp LALT         &lt 4 ESCAPE         &kp SPACE          &trans    &kp C_MUTE       &kp ENTER  &kp BSPC            &mo 4                 &kp RALT          &kp RGUI
+&kp ESC    &kp N1           &kp N2           &kp N3               &kp N4             &kp N5       &kp C_VOLUME_UP  &kp N6     &kp N7              &kp N8                &kp N9            &kp N0               &kp DELETE
+&kp TAB    &kp Q            &kp W            &kp E                &kp R              &kp T        &kp C_VOL_DN     &kp Y      &kp U               &kp I                 &kp O             &kp P                &kp BSLH
+&kp LCTRL  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G        &bt BT_PRV       &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMI  &kp SQT
+&kp LSHFT  &lt 3 Z          &kp X            &kp C                &kp V              &kp B        &bt BT_NXT       &kp N      &kp M               &kp COMMA             &kp DOT           &lt 3 SLASH          &kp RSHFT
+&trans     &kp LGUI         &kp LALT         &lt 4 ESCAPE         &kp SPACE          &lt 7 TAB    &kp C_MUTE       &kp ENTER  &kp BSPC            &mo 4                 &kp RALT          &kp RGUI
             >;
 
             label = "win home row";
@@ -181,6 +181,18 @@
             >;
 
             display-name = "Mac";
+        };
+
+        Func {
+            bindings = <
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &trans   &trans   &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &trans   &trans   &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans    &trans
+            >;
+
+            label = "function";
         };
     };
 
