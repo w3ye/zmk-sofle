@@ -647,6 +647,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="285" y="85" width="28" height="26" class="combo"/>
 <text x="299" y="98" class="combo tap">CLCK</text>
 </g>
+<g class="combo combopos-1">
+<path d="M252,175 l0,-65" class="combo"/>
+<path d="M252,175 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="162" width="28" height="26" class="combo"/>
+<a href="#function">
+<text x="252" y="175" class="combo tap layer-activator"><tspan style="font-size: 75%">function</tspan></text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="244" y="171" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-HomeRow">
@@ -1028,6 +1036,14 @@ rect.held, rect.combo.held {
 <text x="224" y="144" class="combo tap layer-activator">Mac</text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="216" y="140" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-2">
+<path d="M252,175 l0,-65" class="combo"/>
+<path d="M252,175 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="162" width="28" height="26" class="combo"/>
+<a href="#function">
+<text x="252" y="175" class="combo tap layer-activator"><tspan style="font-size: 75%">function</tspan></text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="244" y="171" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-win home row">
@@ -1387,6 +1403,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">RGUI</text>
+</g>
+<g class="combo combopos-0">
+<path d="M252,175 l0,-65" class="combo"/>
+<path d="M252,175 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="238" y="162" width="28" height="26" class="combo"/>
+<a href="#function">
+<text x="252" y="175" class="combo tap layer-activator"><tspan style="font-size: 75%">function</tspan></text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="244" y="171" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 </g>
 </g>
@@ -2847,10 +2871,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">F8</text>
 </g>
-<g transform="translate(252, 91)" class="key keypos-17">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">F9</text>
+<g transform="translate(252, 91)" class="key held alternate keypos-17">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<text x="0" y="-4" class="key held alternate tap">F9</text>
 </g>
 <g transform="translate(308, 91)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3037,10 +3061,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(252, 259)" class="key trans keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(252, 259)" class="key held alternate keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(314, 283) rotate(30.0)" class="key trans keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

@@ -473,7 +473,7 @@ layers:
   - F6
   - F7
   - F8
-  - F9
+  - {t: F9, type: held alternate}
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -511,7 +511,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -530,3 +530,6 @@ combos:
 - p: [29, 30]
   k: {t: Mac, h: '$$mdi:gesture-tap-hold$$'}
   l: [HomeRow]
+- p: [17, 55]
+  k: {t: function, h: '$$mdi:gesture-tap-hold$$'}
+  l: [Base, HomeRow, win home row]
