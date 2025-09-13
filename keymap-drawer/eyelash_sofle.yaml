@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: Symbol}
-  - {t: HomeRow, h: toggle}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Mac}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: Symbol}
-  - {t: Base, h: toggle}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', h: Mac}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Symbol
@@ -353,9 +353,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Base, h: toggle}
+  - {t: HomeRow, h: toggle}
+  - {t: win home row, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
