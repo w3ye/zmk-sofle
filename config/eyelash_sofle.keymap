@@ -96,6 +96,12 @@
             key-positions = <17 55>;
             layers = <0 1 2>;
         };
+
+        tog-fn {
+            bindings = <&tog 7>;
+            key-positions = <20 21>;
+            layers = <0 1 2 7>;
+        };
     };
 
     keymap {
@@ -191,11 +197,11 @@
 
         Func {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &trans   &trans   &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &trans   &trans   &trans  &trans  &trans     &trans  &trans  &trans     &trans     &trans    &trans
+&trans  &kp F1             &kp F2             &kp F3            &kp F4          &kp F5     &trans  &kp MINUS  &kp N7              &kp N8                 &kp N9             &kp ASTRK      &trans
+&trans  &kp F6             &kp F7             &kp F8            &kp F9          &kp F10    &trans  &kp PLUS   &kp N4              &kp N5                 &kp N6             &kp SLASH      &trans
+&trans  &hml LEFT_GUI F11  &hml LEFT_ALT F12  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans     &trans  &kp EQUAL  &hmr LEFT_SHIFT N7  &hmr RIGHT_CONTROL N8  &hmr RIGHT_ALT N9  &kp RGUI       &trans
+&trans  &trans             &trans             &trans            &trans          &trans     &trans  &trans     &kp COMMA           &kp N0                 &kp DOT            &kp LESS_THAN  &kp GREATER_THAN
+&trans  &trans             &trans             &trans            &trans          &trans     &trans  &trans     &trans              &trans                 &trans             &trans
             >;
 
             label = "function";
