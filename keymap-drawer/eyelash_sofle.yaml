@@ -420,8 +420,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: A, h: Gui+Sft+A}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -462,3 +462,6 @@ combos:
 - p: [20, 21, 3]
   k: {t: Symbol, h: toggle}
   l: [HomeRow, Symbol]
+- p: [29, 30]
+  k: {t: Mac, h: '$$mdi:gesture-tap-hold$$'}
+  l: [HomeRow]
