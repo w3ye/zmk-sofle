@@ -288,10 +288,10 @@ layers:
   - {t: \, s: '|'}
   - '|'
   - $$mdi:apple-keyboard-shift$$
-  - Sft+^
-  - '&'
-  - (
-  - )
+  - {t: ^, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '&', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: (, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ), h: '$$mdi:apple-keyboard-shift$$'}
   - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
