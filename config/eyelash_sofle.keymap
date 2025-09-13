@@ -90,6 +90,12 @@
             key-positions = <29 30>;
             layers = <1>;
         };
+
+        sl-func {
+            bindings = <&sl 7>;
+            key-positions = <17 55>;
+            layers = <0 1 2>;
+        };
     };
 
     keymap {
