@@ -183,4 +183,13 @@
             display-name = "Mac";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        system_layer {
+            if-layers = <4 3>;
+            then-layer = <5>;
+        };
+    };
 };
