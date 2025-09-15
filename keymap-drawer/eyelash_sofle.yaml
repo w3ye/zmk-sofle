@@ -490,9 +490,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
+  - {t: '1', h: '$$mdi:apple-keyboard-shift$$', s: '!'}
+  - {t: '2', h: '$$mdi:apple-keyboard-control$$', s: '@'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
   - RGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
