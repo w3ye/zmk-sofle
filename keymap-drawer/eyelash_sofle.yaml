@@ -524,15 +524,15 @@ combos:
 - p: [14, 15, 21]
   k: CLCK
   l: [Base]
-- p: [20, 21, 3]
+- p: [7, 59]
   k: {t: Symbol, h: toggle}
-  l: [HomeRow, Symbol]
+  l: [HomeRow, Symbol, Base, win home row]
 - p: [29, 30]
   k: {t: Mac, h: '$$mdi:gesture-tap-hold$$'}
   l: [HomeRow]
 - p: [17, 55]
   k: {t: function, h: '$$mdi:gesture-tap-hold$$'}
   l: [Base, HomeRow, win home row]
-- p: [20, 21]
+- p: [8, 59]
   k: {t: function, h: toggle}
   l: [Base, HomeRow, win home row, function]
