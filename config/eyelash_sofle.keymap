@@ -109,7 +109,7 @@
             layers = <1 2>;
         };
 
-        left-brace {
+        left-bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <42 43>;
             layers = <1 2>;
@@ -127,7 +127,7 @@
             layers = <1 2>;
         };
 
-        right-bracket {
+        right-brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <21 22>;
             layers = <1 2>;
