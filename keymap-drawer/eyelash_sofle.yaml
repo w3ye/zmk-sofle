@@ -551,3 +551,15 @@ combos:
 - p: [21, 22]
   k: '}'
   l: [HomeRow, win home row]
+- p: [18, 20]
+  k: {t: '-', s: _}
+  l: [HomeRow, win home row]
+- p: [31, 33]
+  k: +
+  l: [HomeRow, win home row]
+- p: [17, 21]
+  k: _
+  l: [HomeRow, win home row]
+- p: [30, 34]
+  k: {t: '=', s: +}
+  l: [HomeRow, win home row]
