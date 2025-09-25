@@ -132,6 +132,30 @@
             key-positions = <21 22>;
             layers = <1 2>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <18 20>;
+            layers = <1 2>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <31 33>;
+            layers = <1 2>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <17 21>;
+            layers = <1 2>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <30 34>;
+            layers = <1 2>;
+        };
     };
 
     keymap {
