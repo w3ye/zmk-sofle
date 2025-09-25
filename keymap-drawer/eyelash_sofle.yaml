@@ -420,8 +420,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: A, h: Gui+Sft+A}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -527,12 +527,27 @@ combos:
 - p: [7, 59]
   k: {t: Symbol, h: toggle}
   l: [HomeRow, Symbol, Base, win home row]
-- p: [29, 30]
-  k: {t: Mac, h: '$$mdi:gesture-tap-hold$$'}
-  l: [HomeRow]
 - p: [17, 55]
   k: {t: function, h: '$$mdi:gesture-tap-hold$$'}
   l: [Base, HomeRow, win home row]
 - p: [8, 59]
   k: {t: function, h: toggle}
   l: [Base, HomeRow, win home row, function]
+- p: [29, 30]
+  k: (
+  l: [HomeRow, win home row]
+- p: [34, 35]
+  k: )
+  l: [HomeRow, win home row]
+- p: [42, 43]
+  k: {t: '[', s: '{'}
+  l: [HomeRow, win home row]
+- p: [47, 48]
+  k: {t: ']', s: '}'}
+  l: [HomeRow, win home row]
+- p: [16, 17]
+  k: '{'
+  l: [HomeRow, win home row]
+- p: [21, 22]
+  k: '}'
+  l: [HomeRow, win home row]
