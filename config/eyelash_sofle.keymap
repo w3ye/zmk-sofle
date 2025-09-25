@@ -158,6 +158,64 @@
         };
     };
 
+    macros {
+        commit_next: commit_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT &kp H>;
+            label = "COMMIT_NEXT";
+        };
+
+        commit_prev: commit_prev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp H>;
+            label = "COMMIT_PREV";
+        };
+
+        error_next: error_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT &kp E>;
+            label = "ERROR_NEXT";
+        };
+
+        error_prev: error_prev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp E>;
+            label = "ERROR_PREV";
+        };
+
+        diagnostic_next: diagnostic_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT &kp D>;
+            label = "DIAGNOSTIC_NEXT";
+        };
+
+        diagnostic_prev: diagnostic_prev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp D>;
+            label = "DIAGNOSTIC_PREV";
+        };
+
+        file_gloabl: file_gloabl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp F &kp LS(F)>;
+            label = "FILE_GLOABL";
+        };
+
+        grep_gloabl: grep_gloabl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp S &kp LS(W)>;
+            label = "GREP_GLOABL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -239,11 +297,11 @@
 
         Mac_shortcut {
             bindings = <
-&trans       &trans               &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans                   &trans                           &trans  &trans  &trans  &trans
-&kp LA(TAB)  &trans               &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans                           &trans  &trans  &trans  &trans
-&trans       &mt LG(LS(A)) LG(A)  &trans          &trans               &trans                         &trans                   &trans  &trans                   &trans                           &trans  &trans  &trans  &trans
-&trans       &kp LG(Z)            &trans          &mt LS(LG(C)) LG(C)  &kp LG(V)                      &trans                   &trans  &mt LA(LS(N)) LC(LA(N))  &trans                           &trans  &trans  &trans  &trans
-&trans       &trans               &trans          &trans               &kp LG(SPACE)                  &kp LG(LS(LC(SPACE)))    &trans  &kp LG(ENTER)            &mt LG(BACKSPACE) LA(BACKSPACE)  &trans  &trans  &trans
+&trans       &trans               &kp LG(LS(N2))  &trans               &mt LG(LS(N4)) LG(LC(LS(N4)))  &kp LG(LS(N5))           &trans  &trans                   &trans                           &trans            &trans  &trans  &trans
+&kp LA(TAB)  &trans               &grep_gloabl    &error_prev          &trans                         &trans                   &trans  &trans                   &trans                           &error_next       &trans  &trans  &trans
+&trans       &mt LG(LS(A)) LG(A)  &trans          &diagnostic_prev     &file_gloabl                   &commit_prev             &trans  &commit_next             &trans                           &diagnostic_next  &trans  &trans  &trans
+&trans       &kp LG(Z)            &trans          &mt LS(LG(C)) LG(C)  &kp LG(V)                      &trans                   &trans  &mt LA(LS(N)) LC(LA(N))  &trans                           &trans            &trans  &trans  &trans
+&trans       &trans               &trans          &trans               &kp LG(SPACE)                  &kp LG(LS(LC(SPACE)))    &trans  &kp LG(ENTER)            &mt LG(BACKSPACE) LA(BACKSPACE)  &trans            &trans  &trans
             >;
 
             display-name = "Mac";
