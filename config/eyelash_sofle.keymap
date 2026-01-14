@@ -285,7 +285,7 @@
         System {
             bindings = <
 &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &rgb_ug RGB_BRI  &trans     &trans  &trans  &trans           &trans           &trans
-&trans        &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4     &rgb_ug RGB_BRD  &to 0      &tog 1  &tog 2  &trans           &trans           &trans
+&trans        &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4     &rgb_ug RGB_BRD  &to 0      &to 1   &to 2   &trans           &trans           &trans
 &out OUT_TOG  &trans         &trans         &trans         &trans         &trans            &rgb_ug RGB_EFR  &trans     &trans  &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI
 &trans        &trans         &trans         &trans         &trans         &bt BT_CLR_ALL    &rgb_ug RGB_EFF  &trans     &trans  &trans  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI
 &trans        &trans         &trans         &trans         &trans         &trans            &rgb_ug RGB_TOG  &soft_off  &trans  &trans  &sys_reset       &bootloader
